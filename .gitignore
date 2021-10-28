@@ -1,0 +1,4 @@
+## Build generated
+.vs
+*.sln
+packages
