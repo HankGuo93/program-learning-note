@@ -37,14 +37,18 @@ namespace DataStructure
             return Last;
         }
 
-        public void RemoveFirst()
+        public MyNode<T> RemoveFirst()
         {
+            var tmp = First.Clone();
             First = First.Next == default ? default : First.Next;
+            return tmp;
         }
 
-        public void RemoveLast()
+        public MyNode<T> RemoveLast()
         {
+            var tmp = Last.Clone();
             Last.Clear();
+            return tmp;
         }
 
         public bool Contains(T value)
@@ -138,31 +142,6 @@ namespace DataStructure
                 currentNode.Next = tmp[i];
             }
             Last = currentNode;
-        }
-    }
-
-    public class MyNode<T>
-    {
-        public MyNode()
-        { 
-        
-        }
-
-        public MyNode(T value)
-        {
-            Value = value;
-        }
-
-        //public MyNode<T> Previous { get; set; }
-    
-        public MyNode<T> Next { get; set; }
-
-        public T Value { get; set; }
-
-        public void Clear()
-        {
-            Value = default(T);
-            Next = default(MyNode<T>);
         }
     }
 }
