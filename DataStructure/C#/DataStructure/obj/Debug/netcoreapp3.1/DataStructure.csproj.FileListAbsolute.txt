@@ -4,10 +4,11 @@ C:\Users\user1\Desktop\GitHub\proggram-learning-note\DataStructure\C#\DataStruct
 C:\Users\user1\Desktop\GitHub\proggram-learning-note\DataStructure\C#\DataStructure\bin\Debug\netcoreapp3.1\DataStructure.runtimeconfig.dev.json
 C:\Users\user1\Desktop\GitHub\proggram-learning-note\DataStructure\C#\DataStructure\bin\Debug\netcoreapp3.1\DataStructure.dll
 C:\Users\user1\Desktop\GitHub\proggram-learning-note\DataStructure\C#\DataStructure\bin\Debug\netcoreapp3.1\DataStructure.pdb
-C:\Users\user1\Desktop\GitHub\proggram-learning-note\DataStructure\C#\DataStructure\obj\Debug\netcoreapp3.1\DataStructure.csprojAssemblyReference.cache
 C:\Users\user1\Desktop\GitHub\proggram-learning-note\DataStructure\C#\DataStructure\obj\Debug\netcoreapp3.1\DataStructure.AssemblyInfoInputs.cache
 C:\Users\user1\Desktop\GitHub\proggram-learning-note\DataStructure\C#\DataStructure\obj\Debug\netcoreapp3.1\DataStructure.AssemblyInfo.cs
 C:\Users\user1\Desktop\GitHub\proggram-learning-note\DataStructure\C#\DataStructure\obj\Debug\netcoreapp3.1\DataStructure.csproj.CoreCompileInputs.cache
 C:\Users\user1\Desktop\GitHub\proggram-learning-note\DataStructure\C#\DataStructure\obj\Debug\netcoreapp3.1\DataStructure.dll
 C:\Users\user1\Desktop\GitHub\proggram-learning-note\DataStructure\C#\DataStructure\obj\Debug\netcoreapp3.1\DataStructure.pdb
 C:\Users\user1\Desktop\GitHub\proggram-learning-note\DataStructure\C#\DataStructure\obj\Debug\netcoreapp3.1\DataStructure.genruntimeconfig.cache
+C:\Users\user1\Desktop\GitHub\proggram-learning-note\DataStructure\C#\DataStructure\obj\Debug\netcoreapp3.1\DataStructure.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\GitHub\proggram-learning-note\DataStructure\C#\DataStructure\obj\Debug\netcoreapp3.1\DataStructure.GeneratedMSBuildEditorConfig.editorconfig
