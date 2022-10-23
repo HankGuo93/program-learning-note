@@ -17,7 +17,7 @@ namespace DataStructure
         {
             ArrayData[Counter] = value;
             Counter++;
-            Swin(Counter-1);
+            Swin(Counter - 1);
         }
 
         public int Extract()
@@ -53,8 +53,8 @@ namespace DataStructure
 
         private void MaxHeapify(int index)
         {
-            var left = 2 * index;
-            var right = 2 * index + 1;
+            var left = 2 * index + 1;
+            var right = 2 * index + 2;
             var largetNode = index;
 
             if (left <= Counter && ArrayData[left] > ArrayData[largetNode])
