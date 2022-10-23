@@ -1,5 +1,8 @@
 package main
 
+//description : https://leetcode.com/problems/two-sum/
+//time complexity : O(n)
+//space complexity : O(n)
 func TwoSum(nums []int, target int) []int {
 	var arr []int
 	resultMap := make(map[int]int)
