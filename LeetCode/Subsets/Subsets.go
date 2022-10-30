@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 var NumsLen int
 var StepsRecord = New()
 
@@ -24,6 +26,20 @@ func FindSubSet(layer int, results *[][]int, nums []int) {
 	StepsRecord.Push(nums[layer])
 	FindSubSet(layer+1, results, nums)
 	StepsRecord.Pop()
+}
+
+func ConvertInterfacesToInts(interfaces []interface{}) []int {
+	ints := make([]int, len(interfaces))
+	for i, value := range interfaces {
+		switch typeValue := value.(type) {
+		case int:
+			ints[i] = typeValue
+			break
+		default:
+			fmt.Println("Not an int: ", value)
+		}
+	}
+	return ints
 }
 
 type Stack struct {

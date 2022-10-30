@@ -7,9 +7,6 @@ func generateParenthesis(n int) []string {
 	return res
 }
 
-//description : https://leetcode.com/problems/generate-parentheses/
-//time complexity : O(nlogn)
-//space complexity : O(n^2)
 func dfs(left, right, idx int, bytes []byte, res *[]string) {
 	if left == 0 && right == 0 {
 		*res = append(*res, string(bytes))
