@@ -6,7 +6,7 @@ var NumsLen int
 var StepsRecord = New()
 
 //description : https://leetcode.com/problems/subsets/submissions/
-//time complexity : O(nlogn)
+//time complexity : O(2n)
 //space complexity : O(n)
 func subsets(nums []int) [][]int {
 	NumsLen = len(nums)

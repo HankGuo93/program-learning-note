@@ -1,5 +1,8 @@
 package main
 
+//description : https://leetcode.com/problems/generate-parentheses/
+//time complexity : O(2n)
+//space complexity : O(1)
 func generateParenthesis(n int) []string {
 	res := make([]string, 0, n*n)
 	bytes := make([]byte, n*2)
