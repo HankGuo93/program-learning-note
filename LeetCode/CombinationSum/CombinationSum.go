@@ -1,9 +1,5 @@
 package main
 
-import (
-	"sort"
-)
-
 var results [][]int
 
 //description : https://leetcode.com/problems/combination-sum/
@@ -11,16 +7,12 @@ var results [][]int
 //space complexity : O(1)
 func combinationSum(candidates []int, target int) [][]int {
 	results = [][]int{}
-	sort.Ints(candidates)
 	fundAllSetThatFitTarget(target, candidates, []int{}, 0)
 	return results
 }
 
 func fundAllSetThatFitTarget(target int, candidates []int, set []int, sumValue int) {
 	if sumValue > target {
-		return
-	}
-	if len(set) >= 2 && set[len(set)-2] > set[len(set)-1] {
 		return
 	}
 	if sumValue == target {
@@ -33,6 +25,10 @@ func fundAllSetThatFitTarget(target int, candidates []int, set []int, sumValue i
 		copy(tmpSet[:], set)
 		tmp += candidates[i]
 		tmpSet = append(tmpSet, candidates[i])
+		var tmpSetLen = len(tmpSet)
+		if tmpSetLen >= 2 && tmpSet[tmpSetLen-2] > tmpSet[tmpSetLen-1] {
+			continue
+		}
 		fundAllSetThatFitTarget(target, candidates, tmpSet, tmp)
 	}
 }
