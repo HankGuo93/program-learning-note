@@ -5,7 +5,7 @@ import "fmt"
 var NumsLen int
 var StepsRecord = New()
 
-//description : https://leetcode.com/problems/subsets/submissions/
+//description : https://leetcode.com/problems/subsets/
 //time complexity : O(2n)
 //space complexity : O(n)
 func subsets(nums []int) [][]int {

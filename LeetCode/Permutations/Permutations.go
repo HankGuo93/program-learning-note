@@ -7,7 +7,7 @@ var StepsRecord = New()
 var Nums []int
 var Results [][]int
 
-//description : https://leetcode.com/problems/permutations/submissions/
+//description : https://leetcode.com/problems/permutations/
 //time complexity : O(nlogn)
 //space complexity : O(n)
 func permute(nums []int) [][]int {

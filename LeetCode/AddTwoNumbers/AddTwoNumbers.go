@@ -1,10 +1,13 @@
 package main
 
+//description : https://leetcode.com/problems/add-two-numbers/
+//time complexity : O(n)
+//space complexity : O(3)
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	ten := 0
 	currentNode := new(ListNode)
 	RootNode := currentNode
-    for l1 != nil || l2 != nil {
+	for l1 != nil || l2 != nil {
 		currentNode.Next = new(ListNode)
 		currentNode = currentNode.Next
 		l1Value := 0
